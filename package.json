@@ -1,12 +1,16 @@
 {
   "name": "ceilr-node-sdk",
   "version": "1.0.0",
+  "description": "CeilR Node.js SDK for feature access, usage tracking, and entitlements",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GouniManikumar12/ceilr-node-sdk.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": ["ceilr", "nodejs", "feature-flags", "usage-tracking"],
+  "author": "Mani Kumar Gouni",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
 }
